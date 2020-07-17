@@ -7,155 +7,193 @@
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Raleway:500,600" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
 <body>
 
-
-	<!-- <nav>
-		<a class="hamburger" href=""><i class="fa fa-bars"></i></a>
-		<ul>
-			<li><a href="#about">About</a></li>
-			<li><a href="#projects">Projects</a></li>
-			<li><a href="#contact">Contact</a></li>
-			<li><a href="resume.html">Resume</a></li>
-		</ul>
-	</nav> -->
-
-	<!-- Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-light sticky-top">
-		<a class="navbar-brand" href="#">Yousef Hussin</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		  <div class="navbar-nav">
-			<a class="nav-item nav-link active" href="#">About Me<span class="sr-only">(current)</span></a>
-			<a class="nav-item nav-link" href="#">Projects</a>
-			<a class="nav-item nav-link" href="#">Contact</a>
-			<a class="nav-item nav-link" href="#">Resume</a>
-		  </div>
-		</div>
-	  </nav>
-
-	  <header class="vertical-center">
-		<div>
+	<header class="vertical-center">
+		<div class="center">
 			<h1><a href="#about">Yousef Hussin</a></h1>
 			<h2>Web Developer</h2>
+			<a href="#about"><i class="fa fa-angle-double-down fa-4x"></i></a>
 		</div>
 	</header>
 
 
-	<section id="about" class="callout about">
-		
-		
-				
-					<article class="wrap">
-						<h2>About Me</h2>
-						<p>My name is Yousef Hussin. I am a full stack web developer. I started my journey with General
-							Assembly's
-							Software Engineering Intensive, with over 500 hours of instruction and hands on projects. My
-							interest in web
-							development has only grown, and I look forward to learning more every day!
-						</p>
-						<p>Skills include: JavaScript, Python, HTML, CSS, React, NodeJS, Express, MongoDB, and more. I
-							am always striving to learn more
-							about web development. </p>
-					</article>
-				<img src="images/profile-pic.jpg" alt="profile" id="profile-pic"></img>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top nav-main-page">
+		<a class="navbar-brand" href="index.html">Yousef Hussin</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link active" href="#about">About Me<span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="#projects">Projects</a>
+				<a class="nav-item nav-link" href="#contact">Contact</a>
+				<a class="nav-item nav-link" href="resume.html">Resume</a>
+			</div>
+		</div>
+	</nav>
 
-				
-	
-	
+
+
+
+	<section id="about" class="center container">
+
+		<article class="wrap">
+			<h2>About Me</h2>
+			<p>My name is Yousef Hussin. I am a full stack web developer. I started my journey with General
+				Assembly's
+				Software Engineering Intensive, with over 500 hours of instruction and hands on projects. My
+				interest in web
+				development has only grown, and I look forward to learning more every day!
+			</p>
+			<p>Skills include: JavaScript, Python, HTML, CSS, React, NodeJS, Express, MongoDB, and more. I
+				am always striving to learn more
+				about web development. </p>
+		</article>
+		<img src="images/profile-pic.jpg" alt="profile" id="profile-pic"></img>
+
+
+
+
 
 	</section>
 
-	
-        <div id="projects">
+
+	<div id="projects" class="center">
 		<h2>Some of my projects:</h2>
 
-				<div class="hovereffect">
-					<img class="img-responsive" src="images/tutor-marketplace.png" alt="tutor marketplace">
-					<div class="overlay">
-						<h2><a class="media-link" href="https://tutor-marketplace-sei.herokuapp.com/">Tutor MarketPlace</a></h2>
-						<a class="info" href="https://tutor-marketplace-sei.herokuapp.com/" target="_blank">A market to
-							match tutors with students, designed with Python and Django.</a>
-					</div>
+		<div class="hovereffect">
+			<div class="overlay">
+				<h2><a class="media-link" href="https://tutor-marketplace-sei.herokuapp.com/">Tutor MarketPlace</a></h2>
+				<a class="info" href="https://tutor-marketplace-sei.herokuapp.com/" target="_blank">A market to
+					match tutors with students, designed with Python and Django.</a>
+			</div>
+		</div>
+		<a href="https://github.com/yhussin/tutor-marketplace">Tutor Marketplace GitHub repo</a>
+
+		<div class="hovereffect">
+			<div class="overlay">
+				<h2><a class="media-link" href="https://tranquil-beyond-49495.herokuapp.com/">Forgotten Friends</a></h2>
+				<a class="info" href="https://tranquil-beyond-49495.herokuapp.com/" target="_blank">Pet
+					adoption site, designed with MEN stack, with full CRUD capabilites</a>
+			</div>
+		</div>
+		<a href="https://github.com/yhussin/forgotten-friends">Forgotten Friends GitHub Repo</a>
+
+
+		<div class="hovereffect">
+			<div class="overlay">
+				<h2><a class="media-link" href="https://pages.git.generalassemb.ly/yhussin/in-the-dark/">In the Dark</a>
+				</h2>
+				<a class="info" href="https://pages.git.generalassemb.ly/yhussin/in-the-dark/"
+					target="_blank">JavaScript game which implements collision detection</a>
+			</div>
+		</div>
+		<a href="https://github.com/yhussin/in-the-dark-game">In the Dark GitHub repo</a>
+	</div>
+
+	<br>
+	<br>
+
+
+
+	<!-- New Projects Section -->
+
+	<div class="container">
+
+		<div class="row">
+		  <div class="col-md-4">
+			<div class="card mb-4 shadow">
+			<a class="media-link" href="https://tutor-marketplace-sei.herokuapp.com/">
+			  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" alt="Card image cap">
+			  </a>
+			  <div class="card-body">
+				<h4>Tutor Marketplace</h4>
+				<p class="card-text">A market to
+					match tutors with students, designed with Python and Django.</p>
+				<div class="d-flex justify-content-between align-items-center">
+				  <div class="btn-group">
+					<button type="button" class="btn btn-sm btn-outline-secondary">More info</button>
+					<button type="button" class="btn btn-sm btn-sm-visit btn-outline-secondary">Visit site</button>
+					<button type="button" class="btn btn-sm btn-outline-secondary">GitHub repo</button>
+				  </div>
 				</div>
-                <!-- <a href="https://github.com/yhussin/tutor-marketplace">Tutor Marketplace GitHub repo</a> -->
-				
-					<div class="hovereffect">
-						<img class="img-responsive" src="images/forgotten-friends.png" alt="forgotten-friends">
-						<div class="overlay">
-							<h2><a class="media-link" href="https://tranquil-beyond-49495.herokuapp.com/">Forgotten Friends</a></h2>
-							<a class="info" href="https://tranquil-beyond-49495.herokuapp.com/" target="_blank">Pet
-								adoption site, designed with MEN stack, with full CRUD capabilites</a>
-						</div>
-					</div>
-				<!-- <a href="https://github.com/yhussin/forgotten-friends">Forgotten Friends GitHub Repo</a> -->
-
-				
-					<div class="hovereffect">
-						<img class="img-responsive" src="images/in-the-dark.png" alt="in the dark">
-						<div class="overlay">
-							<h2><a class="media-link" href="https://pages.git.generalassemb.ly/yhussin/in-the-dark/">In the Dark</a></h2>
-							<a class="info" href="https://pages.git.generalassemb.ly/yhussin/in-the-dark/"
-								target="_blank">JavaScript game which implements collision detection</a>
-						</div>
-					</div>
-					<!-- <a href="https://github.com/yhussin/in-the-dark-game">In the Dark GitHub repo</a> -->
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-md-4">
+			<div class="card mb-4 shadow">
+			  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" alt="Card image cap">
+			  <div class="card-body">
+				<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				<div class="d-flex justify-content-between align-items-center">
+				  <div class="btn-group">
+					<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+				  </div>
+				  <small class="text-muted">9 mins</small>
 				</div>
-
-
-<!-- New Projects Section -->
-<div class="container">
-	<div class="row">
-		<div class="col">1</div>
-		<div class="col">2</div>
-	</div>
-	<div class="row">
-		<div class="col">3</div>
-		<div class="col">4</div>
-	</div>
-	</div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-md-4">
+			<div class="card mb-4 shadow">
+			  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/forest-sm.jpg" alt="Card image cap">
+			  <div class="card-body">
+				<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				<div class="d-flex justify-content-between align-items-center">
+				  <div class="btn-group">
+					<button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+					<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+				  </div>
+				  <small class="text-muted">9 mins</small>
+				</div>
+			  </div>
+			</div>
+		  </div>
+</div>
 </div>
 
 
 
-<!-- Contact Me -->
 
-	<section id="contact" class="contact-wrap">
-				<h2>Contact Info</h2>
-				<h3>Email: yhussin@gmail.com</h3>
-				<h3>Phone: (443) 485-7007</h3>
+
+	<!-- Contact Me -->
+	<section id="contact" class="center">
+		<h4 class="pb-3">Contact Info</h2>
+		<h4>Email: <a href="mailto:yhussin@gmail.com">yhussin@gmail.com</a></h3>
+		
 	</section>
-	
-	<footer>
-		<div class="wrap">
-			<div class="social-links">
-				<a href="https://www.linkedin.com/in/yousefhussin/" target="_blank"><i class="fa fa-linkedin"
-						aria-hidden="true"></i></a>
-				<a href="https://twitter.com/YHussin2" target="_blank"><i class="fa fa-twitter-square"
-						aria-hidden="true"></i></a>
-				<a href="https://github.com/yhussin" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-			</div>
-		</div>
 
-		<p class="copyright">&copy;2020 Yousef Hussin</p>
+	<!-- Footer -->
+	<footer class="center">
+		<div class="social-links pt-5">
+			<a href="https://www.linkedin.com/in/yousefhussin/" target="_blank"><i class="fa fa-linkedin"
+					aria-hidden="true"></i></a>
+			<a href="https://twitter.com/YHussin2" target="_blank"><i class="fa fa-twitter-square"
+					aria-hidden="true"></i></a>
+			<a href="https://github.com/yhussin" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+		</div>
+		<p class="copyright py-4">&copy;2020 Yousef Hussin</p>
 	</footer>
 
 
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
 </body>
 
 </html>
